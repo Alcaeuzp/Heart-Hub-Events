@@ -47,5 +47,10 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 
-# Preserve archived validation evidence in the project backup.
-!/validation/**/*.log
+# Local tests, validation evidence, and documentation.
+/tests/
+/validation/
+/docs/
+/documentation/
+*.md
+readme.txt

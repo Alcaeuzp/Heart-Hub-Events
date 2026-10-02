@@ -1,1 +1,0 @@
-{"application":{"_ID":1,"first_name":"Alex","last_name":"Example","email":"alex@example.test","registration_status":"approved","number_of_attendees":4},"event":{"title":"Sample event","capacity":20,"remaining":16}}
