@@ -1,0 +1,411 @@
+.hherm-support-groups-wrap .hherm-support-groups-form-actions {
+  display: flex;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.hherm-support-section-tabs {
+  display: flex;
+  gap: 6px;
+  max-width: 1280px;
+  margin: 0 auto 22px;
+  padding: 7px;
+  border: 1px solid var(--hh-border);
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: var(--hh-shadow);
+}
+
+.hherm-support-section-tabs a {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border-radius: 7px;
+  color: var(--hh-blue-dark);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.hherm-support-section-tabs a:hover,
+.hherm-support-section-tabs a:focus,
+.hherm-support-section-tabs a.is-active {
+  background: var(--hh-blue-soft);
+  color: var(--hh-ink);
+}
+
+.hherm-support-section-tabs a span {
+  min-width: 20px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--hh-muted);
+  font-size: 11px;
+  text-align: center;
+}
+
+.hherm-support-group-session-editor {
+  margin-top: 20px;
+  border: 1px solid var(--hh-border);
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.hherm-support-group-session-row {
+  display: grid;
+  grid-template-columns: 70px minmax(170px, 1.2fr) minmax(130px, 1fr) minmax(130px, 1fr);
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--hh-rule-soft);
+}
+
+.hherm-support-group-session-row:last-child {
+  border-bottom: 0;
+}
+
+.hherm-support-group-session-row.is-heading {
+  background: var(--hh-surface-3);
+  color: var(--hh-muted);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+.hherm-support-group-session-row input {
+  width: 100%;
+  min-height: 38px;
+  padding: 7px 9px;
+  border: 1px solid var(--hh-border-input);
+  border-radius: 7px;
+  background: var(--hh-surface-2);
+  box-shadow: none;
+}
+
+.hherm-support-groups-shortcodes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.hherm-support-groups-shortcodes > div {
+  padding: 15px 16px;
+  border: 1px solid var(--hh-border);
+  border-radius: 9px;
+  background: var(--hh-blue-soft);
+}
+
+.hherm-support-groups-shortcodes code {
+  display: block;
+  width: fit-content;
+  margin: 8px 0;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.hherm-support-groups-shortcodes p {
+  margin: 0;
+  color: var(--hh-muted);
+}
+
+.hherm-support-group-status {
+  display: inline-flex;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.hherm-support-group-status.is-upcoming {
+  background: var(--hh-green-soft);
+  color: var(--hh-green);
+}
+
+.hherm-support-group-status.is-past {
+  background: var(--hh-blue-soft);
+  color: var(--hh-muted);
+}
+
+.hherm-support-group-status.is-review {
+  background: var(--hh-amber-soft);
+  color: var(--hh-amber);
+}
+
+.hherm-support-group-status.is-interest {
+  background: var(--hh-blue-soft);
+  color: var(--hh-blue);
+}
+
+.hherm-support-group-status.is-declined {
+  background: var(--hh-red-soft);
+  color: var(--hh-red);
+}
+
+.hherm-support-groups-wrap .hherm-delete-link {
+  color: var(--hh-red);
+}
+
+.hherm-selected-programme {
+  color: var(--hh-green);
+}
+
+.hherm-back-link {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hherm-support-programmes-list {
+  margin-bottom: 22px;
+}
+
+.hherm-support-groups-reference {
+  max-width: 1280px;
+  margin-top: 22px;
+}
+
+.hherm-support-groups-public-toggle,
+.hherm-confirm-delete {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 14px 15px;
+  border: 1px solid var(--hh-border);
+  border-radius: 9px;
+  background: var(--hh-surface-3);
+}
+
+.hherm-support-groups-public-toggle input,
+.hherm-confirm-delete input {
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+
+.hherm-support-groups-public-toggle span,
+.hherm-support-groups-public-toggle small {
+  display: block;
+}
+
+.hherm-support-groups-public-toggle small {
+  margin-top: 3px;
+  color: var(--hh-muted);
+  font-weight: 400;
+}
+
+.hherm-support-applicants {
+  margin-top: 22px;
+  overflow-x: auto;
+}
+
+.hherm-support-applicants .hherm-card-heading > div span {
+  display: block;
+  margin-top: 3px;
+}
+
+.hherm-support-applicants table {
+  min-width: 980px;
+}
+
+.hherm-support-interest-list {
+  margin-top: 0;
+}
+
+.hherm-support-interest-list table {
+  min-width: 1120px;
+}
+
+.hherm-support-applicant-link {
+  text-decoration: none;
+}
+
+.hherm-support-applicant-link:hover,
+.hherm-support-applicant-link:focus {
+  text-decoration: underline;
+}
+
+.hherm-support-applicant-detail {
+  max-width: 980px;
+}
+
+.hherm-support-applicant-detail .hherm-form-card__heading {
+  align-items: flex-start;
+}
+
+.hherm-support-applicant-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  margin: 18px 0 0;
+  border: 1px solid var(--hh-border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hherm-support-applicant-fields > div {
+  padding: 15px 17px;
+  border-bottom: 1px solid var(--hh-rule-soft);
+}
+
+.hherm-support-applicant-fields > div:nth-child(even) {
+  border-left: 1px solid var(--hh-rule-soft);
+}
+
+.hherm-support-applicant-fields > div:last-child,
+.hherm-support-applicant-fields > div:nth-last-child(2):nth-child(odd) {
+  border-bottom: 0;
+}
+
+.hherm-support-applicant-fields dt {
+  margin: 0 0 5px;
+  color: var(--hh-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.hherm-support-applicant-fields dd {
+  margin: 0;
+  color: var(--hh-ink);
+  font-weight: 600;
+}
+
+.hherm-support-applicant-explanation {
+  margin-top: 20px;
+}
+
+.hherm-support-applicant-explanation h3 {
+  margin: 0 0 8px;
+  color: var(--hh-ink);
+  font-size: 15px;
+}
+
+.hherm-support-applicant-explanation > div {
+  padding: 16px 17px;
+  border-left: 4px solid var(--hh-blue);
+  border-radius: 0 8px 8px 0;
+  background: var(--hh-blue-soft);
+  color: var(--hh-body);
+  line-height: 1.6;
+  white-space: normal;
+}
+
+.hherm-support-applicant-explanation p {
+  margin: 0;
+}
+
+.hherm-support-applicant-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 980px;
+  margin-top: 22px;
+}
+
+.hherm-support-applicant-actions h2 {
+  margin: 0 0 5px;
+  color: var(--hh-ink);
+  font-size: 16px;
+}
+
+.hherm-support-applicant-actions p {
+  margin: 0;
+  color: var(--hh-muted);
+}
+
+.hherm-support-groups-wrap .hherm-decline-button {
+  border-color: #d9aeb3;
+  color: var(--hh-red);
+}
+
+.hherm-danger-zone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 22px;
+  border-color: #edc7ca;
+}
+
+.hherm-danger-zone h2,
+.hherm-delete-confirmation h2 {
+  margin: 0 0 5px;
+  color: var(--hh-red);
+  font-size: 16px;
+}
+
+.hherm-danger-zone p,
+.hherm-delete-confirmation p {
+  margin: 0;
+  color: var(--hh-muted);
+}
+
+.hherm-support-groups-wrap .hherm-danger-button {
+  border-color: var(--hh-red);
+  background: var(--hh-red);
+  color: #fff;
+}
+
+.hherm-support-groups-wrap .hherm-danger-button:hover {
+  border-color: #812831;
+  background: #812831;
+  color: #fff;
+}
+
+.hherm-delete-confirmation {
+  max-width: 720px;
+  padding: 24px;
+}
+
+.hherm-delete-confirmation form {
+  margin-top: 20px;
+}
+
+@media (max-width: 782px) {
+  .hherm-support-group-session-row {
+    grid-template-columns: 42px 1fr;
+  }
+
+  .hherm-support-group-session-row.is-heading {
+    display: none;
+  }
+
+  .hherm-support-group-session-row label {
+    grid-column: 2;
+  }
+
+  .hherm-support-group-session-row strong {
+    grid-row: 1 / 4;
+  }
+
+  .hherm-support-groups-shortcodes {
+    grid-template-columns: 1fr;
+  }
+
+  .hherm-danger-zone {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hherm-support-applicant-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .hherm-support-applicant-fields > div:nth-child(even) {
+    border-left: 0;
+  }
+
+  .hherm-support-applicant-fields > div:nth-last-child(2) {
+    border-bottom: 1px solid var(--hh-rule-soft);
+  }
+
+  .hherm-support-applicant-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

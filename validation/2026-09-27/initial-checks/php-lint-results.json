@@ -1,0 +1,292 @@
+[
+  {
+    "File": "heart-hub-event-registration-manager.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\heart-hub-event-registration-manager.php"
+  },
+  {
+    "File": "uninstall.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\uninstall.php"
+  },
+  {
+    "File": "class-admin-page.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-admin-page.php"
+  },
+  {
+    "File": "class-analytics-page.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-analytics-page.php"
+  },
+  {
+    "File": "class-attendance-manager.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-attendance-manager.php"
+  },
+  {
+    "File": "class-audit-log.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-audit-log.php"
+  },
+  {
+    "File": "class-calendar-display.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-calendar-display.php"
+  },
+  {
+    "File": "class-calendar-schedule.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-calendar-schedule.php"
+  },
+  {
+    "File": "class-calendar-settings.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-calendar-settings.php"
+  },
+  {
+    "File": "class-capacity-manager.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-capacity-manager.php"
+  },
+  {
+    "File": "class-cct-repository.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-cct-repository.php"
+  },
+  {
+    "File": "class-checkin-manager.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-checkin-manager.php"
+  },
+  {
+    "File": "class-checkin-page.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-checkin-page.php"
+  },
+  {
+    "File": "class-email-automation.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-email-automation.php"
+  },
+  {
+    "File": "class-email-page.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-email-page.php"
+  },
+  {
+    "File": "class-email-service.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-email-service.php"
+  },
+  {
+    "File": "class-event-datetime.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-datetime.php"
+  },
+  {
+    "File": "class-event-manager.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-manager.php"
+  },
+  {
+    "File": "class-event-metrics.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-metrics.php"
+  },
+  {
+    "File": "class-event-overview.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-overview.php"
+  },
+  {
+    "File": "class-event-public-display.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-public-display.php"
+  },
+  {
+    "File": "class-event-type-readiness.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-type-readiness.php"
+  },
+  {
+    "File": "class-event-types.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-event-types.php"
+  },
+  {
+    "File": "class-jetform-integration.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-jetform-integration.php"
+  },
+  {
+    "File": "class-past-events.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-past-events.php"
+  },
+  {
+    "File": "class-plugin.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-plugin.php"
+  },
+  {
+    "File": "class-post-event-feedback.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-post-event-feedback.php"
+  },
+  {
+    "File": "class-public-form-token.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-public-form-token.php"
+  },
+  {
+    "File": "class-public-page-theme.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-public-page-theme.php"
+  },
+  {
+    "File": "class-registration-self-service.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-registration-self-service.php"
+  },
+  {
+    "File": "class-registrations-page.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-registrations-page.php"
+  },
+  {
+    "File": "class-rest-controller.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-rest-controller.php"
+  },
+  {
+    "File": "class-settings.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-settings.php"
+  },
+  {
+    "File": "class-support-groups.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\includes\\class-support-groups.php"
+  },
+  {
+    "File": "admin-navigation.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\admin-navigation.php"
+  },
+  {
+    "File": "attendance-save.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\attendance-save.php"
+  },
+  {
+    "File": "calendar-display.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\calendar-display.php"
+  },
+  {
+    "File": "checkin-workflow.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\checkin-workflow.php"
+  },
+  {
+    "File": "customer-history.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\customer-history.php"
+  },
+  {
+    "File": "decision-email.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\decision-email.php"
+  },
+  {
+    "File": "event-datetime.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-datetime.php"
+  },
+  {
+    "File": "event-fee-display.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-fee-display.php"
+  },
+  {
+    "File": "event-metrics.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-metrics.php"
+  },
+  {
+    "File": "event-public-display.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-public-display.php"
+  },
+  {
+    "File": "event-registration-phase.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-registration-phase.php"
+  },
+  {
+    "File": "event-reporting.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-reporting.php"
+  },
+  {
+    "File": "event-type-readiness.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-type-readiness.php"
+  },
+  {
+    "File": "event-types.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\event-types.php"
+  },
+  {
+    "File": "interest-email.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\interest-email.php"
+  },
+  {
+    "File": "interest-workflow.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\interest-workflow.php"
+  },
+  {
+    "File": "jetform-dietary.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\jetform-dietary.php"
+  },
+  {
+    "File": "plugin-bootstrap.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\plugin-bootstrap.php"
+  },
+  {
+    "File": "public-submissions.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\public-submissions.php"
+  },
+  {
+    "File": "registration-admin-list.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\registration-admin-list.php"
+  },
+  {
+    "File": "registration-workflow.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\registration-workflow.php"
+  },
+  {
+    "File": "self-service-update.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\self-service-update.php"
+  },
+  {
+    "File": "settings-tabs.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\settings-tabs.php"
+  },
+  {
+    "File": "support-groups.php",
+    "ExitCode": 0,
+    "Output": "No syntax errors detected in G:\\Heart Hub Events Plugin\\tests\\support-groups.php"
+  }
+]

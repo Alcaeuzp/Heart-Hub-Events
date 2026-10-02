@@ -1,0 +1,174 @@
+{
+    "timestamp_utc": "2026-09-27T02:01:17+00:00",
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "database": "12.3.3",
+    "passed": 40,
+    "failed": 0,
+    "checks": [
+        {
+            "passed": true,
+            "message": "Native dbDelta installs/verifies the support schema"
+        },
+        {
+            "passed": true,
+            "message": "Real table contains delivery and application-type columns"
+        },
+        {
+            "passed": true,
+            "message": "Failed atomic prefix-index replacement preserves the prior key and schema marker"
+        },
+        {
+            "passed": true,
+            "message": "Native migration replaces prefix uniqueness with complete values before marking schema 5"
+        },
+        {
+            "passed": true,
+            "message": "Failed real ALTER TABLE leaves schema version pending"
+        },
+        {
+            "passed": true,
+            "message": "Retry removes the old unique key after verifying its replacement"
+        },
+        {
+            "passed": true,
+            "message": "Programme handler persists through native options and reads back correctly"
+        },
+        {
+            "passed": true,
+            "message": "Unchanged native option save is accepted"
+        },
+        {
+            "passed": true,
+            "message": "Real programme-option SQL failure preserves saved values"
+        },
+        {
+            "passed": true,
+            "message": "Public submission persists applicant and both delivery states in MariaDB"
+        },
+        {
+            "passed": true,
+            "message": "Real public handler rejects an exact duplicate email"
+        },
+        {
+            "passed": true,
+            "message": "Native nonce-protected approval persists its status and confirmation delivery"
+        },
+        {
+            "passed": true,
+            "message": "Repeated native approval does not create another confirmation delivery"
+        },
+        {
+            "passed": true,
+            "message": "Real WordPress rejects an invalid approval nonce without a new email"
+        },
+        {
+            "passed": true,
+            "message": "Unicode fields below character limits are stored losslessly"
+        },
+        {
+            "passed": true,
+            "message": "Character limits truncate overlong Unicode safely at complete characters"
+        },
+        {
+            "passed": true,
+            "message": "Array-valued public email is rejected without a PHP type error or insertion"
+        },
+        {
+            "passed": true,
+            "message": "Valid-format email beyond the database field limit is rejected before insertion"
+        },
+        {
+            "passed": true,
+            "message": "Long-address boundary examples are valid and share the first 90 characters"
+        },
+        {
+            "passed": true,
+            "message": "Distinct valid emails sharing a 90-character prefix can both register"
+        },
+        {
+            "passed": true,
+            "message": "Applicant deletion removes its actual MariaDB row"
+        },
+        {
+            "passed": true,
+            "message": "Deletion removes support personal payloads from the actual audit table"
+        },
+        {
+            "passed": true,
+            "message": "Numeric ID collisions preserve real event payload and capacity history"
+        },
+        {
+            "passed": true,
+            "message": "Ambiguous historical logs block deletion without removing unrelated data"
+        },
+        {
+            "passed": true,
+            "message": "Real applicant-delete SQL failure preserves access to remaining records"
+        },
+        {
+            "passed": true,
+            "message": "Real programme deletion retains legacy interests and the future pool"
+        },
+        {
+            "passed": true,
+            "message": "Real WordPress renderer keeps legacy-interest details accessible after cohort deletion"
+        },
+        {
+            "passed": true,
+            "message": "Interest-list preview truncates emoji at complete characters"
+        },
+        {
+            "passed": true,
+            "message": "Strict ledger read distinguishes a genuinely absent database row"
+        },
+        {
+            "passed": true,
+            "message": "Strict ledger read returns persisted operational history"
+        },
+        {
+            "passed": true,
+            "message": "Actual ledger SELECT failure returns a safe error rather than an absent reservation"
+        },
+        {
+            "passed": true,
+            "message": "Noncritical legacy ledger wrapper preserves its array contract on database failure"
+        },
+        {
+            "passed": true,
+            "message": "Corrupted operational details fail closed rather than becoming an empty history"
+        },
+        {
+            "passed": true,
+            "message": "Native option lock establishes token ownership"
+        },
+        {
+            "passed": true,
+            "message": "Native unique option key rejects another live owner"
+        },
+        {
+            "passed": true,
+            "message": "Wrong-token release cannot remove a native lock"
+        },
+        {
+            "passed": true,
+            "message": "Expired native lock is reclaimed without allowing stale-owner deletion"
+        },
+        {
+            "passed": true,
+            "message": "Atomic SQL compare-delete preserves a replacement from a second database connection"
+        },
+        {
+            "passed": true,
+            "message": "Native owner release removes its temporary lock"
+        },
+        {
+            "passed": true,
+            "message": "Log-only support workflow never attempts outbound mail"
+        }
+    ],
+    "limitations": [
+        "JetEngine/JetFormBuilder are not installed or exercised by this support fixture.",
+        "Outbound mail is intercepted and normal sends use Log only mode."
+    ]
+}

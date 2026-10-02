@@ -1,0 +1,40 @@
+[27-Sep-2026 01:50:21 UTC] PHP Fatal error:  Uncaught RuntimeException: Support integration checks failed. in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code:74
+Stack trace:
+#0 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code(215): HHERM_Support_WordPress_Test->run()
+#1 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85): eval()
+#2 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(59): EvalFile_Command::execute_eval('/plugin/tests/i...', Array, false)
+#3 [internal function]: EvalFile_Command->__invoke(Array, Array)
+#4 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php(100): call_user_func(Array, Array, Array)
+#5 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#6 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php(497): call_user_func(Object(Closure), Array, Array)
+#7 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(470): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#8 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(493): WP_CLI\Runner->run_command(Array, Array)
+#9 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(136): WP_CLI\Runner->run_command_and_exit()
+#10 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1228): WP_CLI\Runner->do_early_invoke('before_wp_load')
+#11 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#12 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#13 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#14 phar:///usr/local/bin/wp/php/boot-phar.php(20): include('phar:///usr/loc...')
+#15 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#16 {main}
+  thrown in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 74
+[27-Sep-2026 01:50:48 UTC] PHP Fatal error:  Uncaught RuntimeException: Support integration checks failed. in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code:74
+Stack trace:
+#0 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code(216): HHERM_Support_WordPress_Test->run()
+#1 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85): eval()
+#2 phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(59): EvalFile_Command::execute_eval('/plugin/tests/i...', Array, false)
+#3 [internal function]: EvalFile_Command->__invoke(Array, Array)
+#4 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php(100): call_user_func(Array, Array, Array)
+#5 [internal function]: WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}(Array, Array)
+#6 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php(497): call_user_func(Object(Closure), Array, Array)
+#7 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(470): WP_CLI\Dispatcher\Subcommand->invoke(Array, Array, Array)
+#8 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(493): WP_CLI\Runner->run_command(Array, Array)
+#9 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(136): WP_CLI\Runner->run_command_and_exit()
+#10 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1228): WP_CLI\Runner->do_early_invoke('before_wp_load')
+#11 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#12 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#13 phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#14 phar:///usr/local/bin/wp/php/boot-phar.php(20): include('phar:///usr/loc...')
+#15 /usr/local/bin/wp(4): include('phar:///usr/loc...')
+#16 {main}
+  thrown in phar:///usr/local/bin/wp/vendor/wp-cli/eval-command/src/EvalFile_Command.php(85) : eval()'d code on line 74

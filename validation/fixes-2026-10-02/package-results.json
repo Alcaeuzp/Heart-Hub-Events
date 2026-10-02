@@ -1,0 +1,27 @@
+{
+  "Status": "PASS",
+  "Version": "1.34.2",
+  "Files": 68,
+  "SourceIdentical": true,
+  "RuntimeOnly": true,
+  "Zip": "G:\\Heart Hub Events Plugin\\heart-hub-event-registration-manager-1.34.2.zip",
+  "Bytes": 273666,
+  "SHA256": "F98CFD6EF53836F22401FC6616B2AC0B05524FAC040500791E7434CA384B79F7",
+  "ChangedRuntimeFiles": [
+    "heart-hub-event-registration-manager.php",
+    "uninstall.php",
+    "readme.txt",
+    "includes/class-calendar-display.php",
+    "includes/class-cct-repository.php",
+    "includes/class-checkin-manager.php",
+    "includes/class-email-service.php",
+    "includes/class-event-public-display.php",
+    "includes/class-jetform-integration.php",
+    "includes/class-plugin.php",
+    "includes/class-post-event-feedback.php",
+    "includes/class-registration-self-service.php",
+    "includes/class-support-groups.php",
+    "includes/class-text-validation.php",
+    "assets/calendar-display.js"
+  ]
+}

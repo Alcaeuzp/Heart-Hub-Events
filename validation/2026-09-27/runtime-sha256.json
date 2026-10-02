@@ -1,0 +1,254 @@
+[
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-admin-page.php",
+    "Hash": "0FBEDE1239F28897AD654C0A4B8EF0F6DC72A8758909C56D762667C483AD6600"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-analytics-page.php",
+    "Hash": "0ADC74469F06AFFB37A075B7FE223C8B415AC2ABD7C7580C342F712F5DAAE89F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-attendance-manager.php",
+    "Hash": "220623578ABDBB709F8383798E4B55BBC0D5423026D53C5C750E0962F1003731"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-audit-log.php",
+    "Hash": "89B1ADB3AA15D3BB77409886A1AA82B10D98AE352EA0088736B1EB5A52DD458B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-calendar-display.php",
+    "Hash": "79C17DAF571EE6927A982B809FB040FB6CF51B1AA3F191734E8ECBE783DD3E96"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-calendar-schedule.php",
+    "Hash": "1970511605F008D39ED63D08050A25C1D90DAC2592F3BEC46E37BA93B19B8DC3"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-calendar-settings.php",
+    "Hash": "F49D3ABF9AA147DC70F9D886ADECB4C3C3F88A695FACD609D75C965FBED29096"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-capacity-manager.php",
+    "Hash": "EA51E1A1F0DEF8A0A18E84440F2EBBD6243540E6CE9186EC1128C5BD242965CF"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-cct-repository.php",
+    "Hash": "E92FA875C158E853A8BFBDBA5623CC9C7DFC401F59E1783584852A6773AD0CBC"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-checkin-manager.php",
+    "Hash": "3E58EACB065F07C6B4C408F912CE04E419EA2C13679B53F409B24AC9648E8EE9"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-checkin-page.php",
+    "Hash": "212DEAD10943D34D1654430291B23192980DC24E0C9A922ED27D44E0B985469F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-email-automation.php",
+    "Hash": "16E2A79D5C0C24AF8C7E2CF443166DB8EBE40BA6E304058DF08DE3226017BDC1"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-email-page.php",
+    "Hash": "4F5C0A51EE45166E6F8EB51A79CB0C1E0ED8A2EE13A5D60547F12369D48DC1A7"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-email-service.php",
+    "Hash": "2A4E352B73153DA9C4DDCCDAA2366D522EF39E4D8D34646FD9C759B16A675308"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-datetime.php",
+    "Hash": "7E3CFDAEE4A14555EF794F071CD4B587146C9F766B0AE8E91A2E57C68DFD2607"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-manager.php",
+    "Hash": "B40B185A57004DD160483F986EFD03D989FEEF628E113B24079D1CB72AAF4498"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-metrics.php",
+    "Hash": "931C85F63BB004730148B91BAC802A876D96796658A3803D27E975E1F5A4BB22"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-overview.php",
+    "Hash": "96843682F7344B13FBCC797D7D2B97BC723E20AA09F775280BA85A3C05A6D0FD"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-public-display.php",
+    "Hash": "703608E38CA9DC8E10796444AB5F9EB879DA5BCEB5CA44D925A4A8D88ED6A2C4"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-type-readiness.php",
+    "Hash": "2E15F2ACF85FC90638F1713F53006D3CBF4BD07EEB77CE9ABD2B1433B484B389"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-event-types.php",
+    "Hash": "F1BAF0AEFB1DC7A2C429E28D72601429BD81A0F3D50DF55D03DC8767FFA0A2DB"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-jetform-integration.php",
+    "Hash": "A3862D2024EF162FA43E436369C9BE421F1EAC9BACC428417C0F9F3910AF8702"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-past-events.php",
+    "Hash": "00790C95D17E29D5C51E4068687A506595075977382455E23210C62733308CEC"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-plugin.php",
+    "Hash": "386A96D7DD42383807BF51D36AE62DF2BD416AC8D786CAD79EEE3897E683506F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-post-event-feedback.php",
+    "Hash": "BF18C3E16339213644E10A3AF0471FE5810C05E76B95AD824E81B99ECCB03636"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-public-form-token.php",
+    "Hash": "23EE0B6E55DA061744AFC91E4DFC48DE850406D78FB18E3E19EF9A374BE89727"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-public-page-theme.php",
+    "Hash": "63537B20328D8D55B32E79937B698478FAF8FB13065E9CFF79F4AC24A597162F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-registration-self-service.php",
+    "Hash": "0CED48BE6340F42652EB1EE203C16E7F82E5F8809946E800C5B0128FECBE88E3"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-registrations-page.php",
+    "Hash": "BE00F7C28A87A88D595D2118DA82BC8C0D916131E54327B4081B5344383F459B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-rest-controller.php",
+    "Hash": "920DFBD23764D0886079626A2A9F5C0A81714CFEA421CA3DD259EEA1E83A52C4"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-settings.php",
+    "Hash": "7897FF90D1E16C6C4632C2DBD96F3054998A8AC2597AF13A36177987BBEB068A"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\includes\\class-support-groups.php",
+    "Hash": "264094814883357534F6F1E5B910919CFBFDBD43F1BCE2FB490DAC654691242B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\admin-base.css",
+    "Hash": "2AF60FCF3F776701F5D5A36A73742DF5F2A60CE9787F6488E644C63C87F7EA39"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\admin-confirm.js",
+    "Hash": "59D40492AA67A8393CDE28190E16C63B28F6A9023F2CF351FEE02BD8C29836FF"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\analytics.css",
+    "Hash": "4923C38F775EB84EB534BA07754B9BCBFB2486404050C6E5B238C1771A845D4C"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\analytics.js",
+    "Hash": "7026E084FF2576F09489FEA7DEDE7A77ECAEC73724599CDDA909FEB8A228D44D"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\attendance.css",
+    "Hash": "C3F77E2DC2DE5BE59C2CAA45392477B10DEC8D14859139D03AE9958474FEDDB0"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\calendar-display.css",
+    "Hash": "37F9799CE01A7E3A3EE79263F25939DB043D11265CFEBBEBC57060C87394F5F7"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\calendar-display.js",
+    "Hash": "12F4352FD8FD1D9D08CC9C32B14A834B71CC2251533F5A639683A0847912B244"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\calendar-schedule.css",
+    "Hash": "AF0AFFACFC44FF7CAF8C8119A38CB7164DB323D97EE65C0FA6AD756965ACF061"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\calendar-schedule.js",
+    "Hash": "C68B468D69C220E9D5868C3232E88E76EFBBD3B87FDA559CD26C5E1E223EA1F7"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\checkin-admin.js",
+    "Hash": "ABF6D1B401457440597A13F964E3FDE30D5330060A761C6519F80C148DEFA81B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\checkin-page.css",
+    "Hash": "8274D03C6F1BEAFEBAB62A2BE20447500C538D7686E27F6CEE9A26400BFD66B8"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\checkin-page.js",
+    "Hash": "1FC163F6C46B6818994517B953716AB16510CC98E89E6CB1F0BBE82CC7E10D35"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\checkin.css",
+    "Hash": "D2D7BDFB413CBB56848B842D167F4A4E3CA0D44F1734C78CC64F6CEC84810008"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\dashboard.js",
+    "Hash": "07DE76F518B0DFBDEE674303ECCC8E10096F61CEB615A24C71D8DE8AECF57297"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\email-page.css",
+    "Hash": "26C1E626F7DBE8CD172C0DE341ADADD5467BD9652E1E40426AD3C545C6D69A79"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\email-settings.js",
+    "Hash": "90C2D401AA79A5CD5E3B22C5032BE427A002B9A835176324440111BC38A2D792"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\event-editor.css",
+    "Hash": "CD32CA65756F6A440877B3CD678DAC058F207554D3388DD651FA2857258E4746"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\event-editor.js",
+    "Hash": "31966FBA621BE25B1995ABBFF1770F1B6689A93007E1FE90D4A3BB12D04856E7"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\event-public.css",
+    "Hash": "6EA276EDFF065BB749AE24C7039FEC11DE720DD3765E57677CCE649FB3467985"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\events.css",
+    "Hash": "260EFD23DD24CE9191890A83907FA0C1D265A8E6803EB733ADEB6743F9BEA8B3"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\events.js",
+    "Hash": "277FADCD6579091AC250DD74D79F13ACA8F88278A5B6621CECC0E2CCD6338895"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\registration-self-service.css",
+    "Hash": "8F3988D2B34E4EDBF108A4B08DA816E9A263F7286B2E345ABA7C7DCFD534194F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\registrations-page.css",
+    "Hash": "86E60B86CFA076DAB313D045D34F2534FDDEC3CDFABF1AC0F51577D0B6DB053F"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\settings-tabs.css",
+    "Hash": "3C16788F641B9B47D4963C768A0E86BB2621E456013D75BED4E0E9843C2AF79D"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\settings.css",
+    "Hash": "84D889D7409FCB3FD5D55EE5863F0D262B4AF7F503ADB4E45C06C2C00AF4DAF5"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\support-group-form.css",
+    "Hash": "00C095726C7BE9AC0021F4A75ADF31FEC9E4E79A383FAAB515B4BAD12AFF495B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\support-group-form.js",
+    "Hash": "5D1B8BBA0C99553F7176ADA73E18E75D234DCB1E98029AB222B3AAFC809B963A"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\support-groups-admin.css",
+    "Hash": "B4C092CC83E1047D0B377F7A248A73EB524E52FDA4AFFB66954F6224ED9CF060"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\support-groups.css",
+    "Hash": "A0E42E0D2C32C719C34BB027373B3D70D31ACC30D2BD4A5AB27A6A9BDF38F4DA"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\vendor\\qrcode.LICENSE",
+    "Hash": "AAA1F349028A59432EB00222B8DDFE4D2CCEBDCE04CF8348DCB8D41B7068107B"
+  },
+  {
+    "Path": "G:\\Heart Hub Events Plugin\\assets\\vendor\\qrcode.min.js",
+    "Hash": "C541EF06327885A8415BCA8DF6071E14189B4855336DEF4F36DB54BDE8484F36"
+  }
+]

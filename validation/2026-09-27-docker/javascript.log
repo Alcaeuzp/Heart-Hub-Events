@@ -1,0 +1,14 @@
+PASS JavaScript syntax: assets/admin-confirm.js
+PASS JavaScript syntax: assets/analytics.js
+PASS JavaScript syntax: assets/calendar-display.js
+PASS JavaScript syntax: assets/calendar-schedule.js
+PASS JavaScript syntax: assets/checkin-admin.js
+PASS JavaScript syntax: assets/checkin-page.js
+PASS JavaScript syntax: assets/dashboard.js
+PASS JavaScript syntax: assets/email-settings.js
+PASS JavaScript syntax: assets/event-editor.js
+PASS JavaScript syntax: assets/events.js
+PASS JavaScript syntax: assets/support-group-form.js
+PASS JavaScript syntax: assets/vendor/qrcode.min.js
+PASS JavaScript fixture: tests/audit-dashboard.js
+Node v24.21.0: 13 checks, 11 assertions, 0 failures/skips.

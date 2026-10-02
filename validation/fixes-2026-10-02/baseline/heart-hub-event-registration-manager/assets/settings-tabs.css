@@ -1,0 +1,91 @@
+/* Tabbed settings shell, centred in the same 1280px column as the other screens. */
+.hherm-settings-wrap {
+	width: 100%;
+	max-width: none;
+	padding: 26px 32px 80px;
+}
+
+.hherm-settings-wrap .hherm-page-header,
+.hherm-settings-wrap .hherm-settings-tabs,
+.hherm-settings-wrap .hherm-settings-form,
+.hherm-settings-wrap .hherm-settings-email-templates,
+.hherm-settings-wrap .hherm-settings-categories {
+	width: 100%;
+	max-width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hherm-settings-tabs {
+	display: flex;
+	align-items: flex-end;
+	gap: 4px;
+	margin: 0 0 20px;
+	padding: 0 4px;
+	overflow-x: auto;
+	/* The active tab overlaps the rule by 1px; without this a vertical scrollbar appears. */
+	overflow-y: hidden;
+	border-bottom: 1px solid var(--hh-border-strong);
+}
+
+.hherm-settings-tabs a {
+	display: inline-flex;
+	align-items: center;
+	min-height: 42px;
+	margin-bottom: -1px;
+	padding: 9px 15px;
+	border: 1px solid transparent;
+	border-bottom-color: var(--hh-border-strong);
+	border-radius: 9px 9px 0 0;
+	color: var(--hh-muted);
+	font-weight: 600;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.hherm-settings-tabs a:hover,
+.hherm-settings-tabs a:focus {
+	background: var(--hh-blue-soft);
+	color: var(--hh-blue-dark);
+}
+
+.hherm-settings-tabs a.is-active {
+	border-color: var(--hh-border-strong);
+	border-bottom-color: #fff;
+	background: #fff;
+	color: var(--hh-ink);
+}
+
+.hherm-settings-tab-panel { display: none; }
+.hherm-settings-tab-panel.is-active { display: block; }
+
+.hherm-settings-wrap .hherm-settings-email-templates,
+.hherm-settings-wrap .hherm-settings-categories {
+	min-height: 0;
+	padding: 0;
+	background: transparent;
+}
+
+.hherm-settings-wrap .hherm-settings-email-templates > .hherm-email-tabs,
+.hherm-settings-wrap .hherm-settings-email-templates > .hherm-email-workspace,
+.hherm-settings-wrap .hherm-category-layout {
+	width: 100%;
+	max-width: none;
+}
+
+.hherm-email-template-intro { margin-top: 28px; }
+.hherm-installation-checklist ol { margin-bottom: 0; color: var(--hh-muted); }
+.hherm-shortcode-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.hherm-shortcode-card { min-width: 0; padding: 16px; border: 1px solid var(--hh-border); border-radius: 10px; background: var(--hh-surface-2); }
+.hherm-shortcode-card code { display: block; overflow-wrap: anywhere; color: var(--hh-blue-dark); font-weight: 700; }
+.hherm-shortcode-card p { margin: 8px 0 0; color: var(--hh-muted); }
+
+@media (max-width: 900px) {
+	.hherm-shortcode-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 782px) {
+	.hherm-settings-wrap { padding-right: 12px; padding-left: 12px; }
+	.hherm-settings-tabs { padding: 0; }
+	.hherm-shortcode-grid { grid-template-columns: 1fr; }
+}

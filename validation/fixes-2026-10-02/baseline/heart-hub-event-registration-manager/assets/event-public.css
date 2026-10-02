@@ -1,0 +1,53 @@
+.hherm-event-cta {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.hherm-event-expectations ol {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.hherm-event-expectations li strong,
+.hherm-event-expectations li span {
+  display: block;
+}
+
+.hherm-event-fee {
+  display: grid;
+  gap: .4rem;
+}
+
+.hherm-event-fee > div,
+.hherm-event-fee--external {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  align-items: baseline;
+}
+.hherm-calendar-entry-details {
+  display: grid;
+  gap: .25rem;
+  margin-top: .5rem;
+  font-size: .9em;
+  line-height: 1.4;
+}
+.hherm-calendar-entry-details__time {
+  font-weight: 600;
+}
+.hherm-calendar-entry-details__location,
+.hherm-calendar-entry-details__description {
+  display: block;
+}
+.hherm-event-interest-form{max-width:720px;margin:32px auto;padding:28px;border-radius:16px;background:#fff;box-shadow:0 8px 30px rgba(35,67,84,.1)}
+.hherm-event-interest-form form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.hherm-event-interest-form label{display:flex;flex-direction:column;gap:7px;font-weight:600}
+.hherm-event-interest-form label:has(textarea){grid-column:1/-1}
+.hherm-event-interest-form input,.hherm-event-interest-form textarea{width:100%;padding:11px 12px;border:1px solid #b9c8d0;border-radius:7px;font:inherit}
+.hherm-event-interest-form button{grid-column:1/-1;justify-self:start;padding:12px 20px;border:0;border-radius:7px;background:#4f87ad;color:#fff;font-weight:700;cursor:pointer}
+.hherm-event-interest-form__notice{padding:12px 14px;border-radius:7px;background:#eef7f9}
+.hherm-interest-hp{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+@media(max-width:640px){.hherm-event-interest-form form{grid-template-columns:1fr}.hherm-event-interest-form{padding:20px}.hherm-event-interest-form label:has(textarea){grid-column:auto}}

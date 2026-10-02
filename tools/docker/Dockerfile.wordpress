@@ -1,0 +1,5 @@
+FROM wordpress:cli-php8.3 AS cli
+FROM wordpress:php8.3-fpm
+COPY --from=cli /usr/local/bin/wp /usr/local/bin/wp
+WORKDIR /var/www/html
+ENTRYPOINT ["sh", "/plugin/tools/docker/wordpress-entrypoint.sh"]

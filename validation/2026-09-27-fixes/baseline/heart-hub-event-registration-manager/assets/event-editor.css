@@ -1,0 +1,523 @@
+/* Create/Edit Event layout corrections. Kept separate so dashboard screens retain their own layout. */
+.hherm-create-wrap {
+  padding: 26px 19px 60px;
+}
+
+.hherm-create-wrap .hherm-page-header,
+.hherm-create-wrap .hherm-event-form {
+  width: 100%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hherm-create-wrap .hherm-page-header {
+  margin-bottom: 16px;
+}
+
+.hherm-create-wrap .hherm-page-header > a {
+  display: none;
+}
+
+.hherm-create-wrap .hherm-form-card {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 16px;
+  padding: 20px;
+}
+
+.hherm-create-wrap .hherm-form-card__heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.hherm-create-wrap .hherm-form-card__heading > .dashicons {
+  display: none;
+}
+
+.hherm-create-wrap .hherm-form-card__heading > div {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+}
+
+.hherm-create-wrap .hherm-form-card__heading h2 {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.hherm-create-wrap .hherm-form-card__heading p {
+  margin: 0;
+}
+
+.hherm-create-wrap .hherm-form-card__heading--split .hherm-expectation-counter {
+  margin-left: auto;
+  color: var(--hh-muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.hherm-create-wrap .hherm-form-card--categories .hherm-form-card__heading p {
+  display: none;
+}
+
+.hherm-create-wrap .hherm-form-grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 14px;
+}
+
+.hherm-create-wrap .hherm-form-grid label,
+.hherm-create-wrap .hherm-editor-field > label {
+  min-width: 0;
+}
+
+.hherm-create-wrap .hherm-form-grid label:not(.hherm-switch) > span {
+  display: block;
+}
+
+.hherm-create-wrap .hherm-form-grid label:not(.hherm-switch) > span strong {
+  display: inline;
+  margin-left: 2px;
+  color: var(--hh-red);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.hherm-create-wrap .hherm-event-type-field {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 7px);
+  gap: 6px;
+  color: var(--hh-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hherm-create-wrap .hherm-event-type-field select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 38px;
+  margin: 0;
+  padding: 8px 34px 8px 10px;
+  border: 1px solid var(--hh-border-input);
+  border-radius: 7px;
+  background-color: var(--hh-surface-2);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1.5 5 5 5-5' fill='none' stroke='%2355707f' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 12px 8px;
+  box-shadow: none;
+  color: var(--hh-ink);
+  font: 14px 'Public Sans', system-ui, sans-serif;
+  appearance: none;
+}
+
+.hherm-create-wrap .hherm-event-type-field select:focus {
+  outline: 0;
+  border-color: var(--hh-blue);
+  box-shadow: 0 0 0 3px var(--hh-blue-soft);
+}
+
+.hherm-create-wrap .hherm-fundraising-help {
+  margin: 0 0 14px;
+  color: var(--hh-muted);
+  font-size: 12px;
+}
+
+.hherm-create-wrap .hherm-form-grid input,
+.hherm-create-wrap .hherm-form-grid select {
+  min-height: 36px;
+}
+
+.hherm-create-wrap .hherm-form-grid textarea {
+  min-height: 74px;
+}
+
+.hherm-create-wrap .hherm-field-error input:not([type="checkbox"]),
+.hherm-create-wrap .hherm-field-error select,
+.hherm-create-wrap .hherm-field-error textarea {
+  border-color: var(--hh-red);
+  box-shadow: 0 0 0 3px rgba(205, 52, 58, 0.14);
+}
+
+.hherm-create-wrap .hherm-field-error-message {
+  display: block;
+  width: 100%;
+  margin-top: 6px;
+  color: var(--hh-red);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.hherm-create-wrap .hherm-money-input {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  margin-top: 4px;
+  padding-left: 10px;
+  border: 1px solid var(--hh-border-input);
+  border-radius: 7px;
+  background: #fff;
+}
+
+.hherm-create-wrap .hherm-money-input > span {
+  color: var(--hh-muted);
+  font-weight: 600;
+}
+
+.hherm-create-wrap .hherm-money-input input {
+  width: 100%;
+  min-height: 34px;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hherm-create-wrap .hherm-raffle-settings {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.hherm-create-wrap .hherm-raffle-cost,
+.hherm-create-wrap .hherm-fundraiser-result label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--hh-muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hherm-create-wrap .hherm-raffle-cost small,
+.hherm-create-wrap .hherm-fundraiser-result small {
+  font-weight: 400;
+}
+
+.hherm-create-wrap .hherm-fundraiser-result {
+  width: calc(50% - 7px);
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--hh-rule-soft);
+}
+
+.hherm-create-wrap .hherm-editor-field {
+  margin-top: 6px;
+}
+
+.hherm-create-wrap .hherm-editor-field .wp-editor-wrap {
+  margin-top: 4px;
+}
+
+.hherm-create-wrap .hherm-editor-field .wp-editor-container {
+  overflow: hidden;
+  border-color: var(--hh-border-input);
+  border-radius: 7px;
+}
+
+.hherm-create-wrap .hherm-expectations {
+  gap: 8px;
+}
+
+.hherm-create-wrap .hherm-expectation-row {
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr) minmax(0, 2fr) 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+}
+
+.hherm-create-wrap .hherm-expectation-index {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--hh-blue-soft);
+  color: var(--hh-blue);
+  font-size: 12px;
+}
+
+.hherm-create-wrap .hherm-expectation-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 5px;
+}
+
+.hherm-create-wrap .hherm-expectation-field > span {
+  color: var(--hh-muted);
+  font-size: 11px;
+}
+
+.hherm-create-wrap .hherm-expectation-field input,
+.hherm-create-wrap .hherm-expectation-field textarea {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 34px;
+  margin: 0;
+  padding: 7px 9px;
+}
+
+.hherm-create-wrap .hherm-expectation-field textarea {
+  height: 34px;
+  resize: vertical;
+}
+
+.hherm-create-wrap .hherm-expectation-remove {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin: 14px 0 0;
+  padding: 0;
+  border: 1px solid var(--hh-border);
+  border-radius: 7px;
+  background: var(--hh-surface);
+  color: var(--hh-muted);
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.hherm-create-wrap .hherm-expectation-remove:hover {
+  border-color: var(--hh-blue);
+  color: var(--hh-blue);
+}
+
+.hherm-create-wrap .hherm-repeater-controls {
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+
+.hherm-create-wrap .hherm-repeater-controls button {
+  border-style: dashed;
+}
+
+.hherm-create-wrap .hherm-switch-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.hherm-create-wrap [data-registration-controls].is-disabled,
+.hherm-create-wrap [data-interest-contact-switch].is-disabled {
+  opacity: .55;
+}
+
+.hherm-create-wrap [data-registration-controls].is-disabled .hherm-switch,
+.hherm-create-wrap [data-registration-controls].is-disabled .hherm-switch input,
+.hherm-create-wrap [data-interest-contact-switch].is-disabled .hherm-switch,
+.hherm-create-wrap [data-interest-contact-switch].is-disabled .hherm-switch input {
+  cursor: not-allowed;
+}
+
+.hherm-create-wrap .hherm-registration-lock-message {
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border: 1px solid #e2b45d;
+  border-radius: 8px;
+  background: #fff8e8;
+  color: #704c0f;
+}
+
+.hherm-create-wrap .hherm-registration-lock-message p {
+  margin: 0;
+}
+
+.hherm-create-wrap .hherm-switch {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 51px;
+  margin: 0;
+  padding: 10px 12px;
+  gap: 12px;
+  border: 1px solid var(--hh-border);
+  border-radius: 8px;
+  background: var(--hh-surface-2);
+  text-align: left;
+}
+
+.hherm-create-wrap .hherm-form-grid .hherm-switch {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: var(--hh-body);
+  font-size: 13.5px;
+  font-weight: 400;
+}
+
+.hherm-create-wrap .hherm-switch::before,
+.hherm-create-wrap .hherm-switch::after {
+  display: none;
+}
+
+.hherm-create-wrap .hherm-switch input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hherm-create-wrap .hherm-switch-control {
+  position: relative;
+  display: block;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 20px;
+  border-radius: 999px;
+  background: #bfd2df;
+}
+
+.hherm-create-wrap .hherm-switch-control::after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(22, 50, 74, .2);
+  content: '';
+  transition: transform .15s ease;
+}
+
+.hherm-create-wrap .hherm-switch input:checked + .hherm-switch-control {
+  background: var(--hh-blue);
+}
+
+.hherm-create-wrap .hherm-switch input:checked + .hherm-switch-control::after {
+  transform: translateX(14px);
+}
+
+.hherm-create-wrap .hherm-switch-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 1px;
+}
+
+.hherm-create-wrap .hherm-switch-copy strong,
+.hherm-create-wrap .hherm-switch-copy small {
+  display: block;
+}
+
+.hherm-create-wrap .hherm-switch-copy small {
+  color: var(--hh-muted);
+}
+
+.hherm-create-wrap .hherm-switch input:focus-visible + .hherm-switch-control {
+  box-shadow: 0 0 0 3px var(--hh-blue-soft), 0 0 0 1px var(--hh-blue);
+}
+
+.hherm-create-wrap .hherm-form-submit {
+  width: 100%;
+  max-width: none;
+  min-height: 61px;
+  margin: 0 auto;
+}
+
+@media (max-width: 782px) {
+  .hherm-create-wrap {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .hherm-create-wrap .hherm-form-card__heading,
+  .hherm-create-wrap .hherm-form-card__heading > div {
+    align-items: flex-start;
+  }
+
+  .hherm-create-wrap .hherm-form-card__heading > div {
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .hherm-create-wrap .hherm-form-card__heading--split .hherm-expectation-counter {
+    margin-left: auto;
+  }
+
+  .hherm-create-wrap .hherm-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hherm-create-wrap .hherm-event-type-field,
+  .hherm-create-wrap .hherm-fundraiser-result {
+    width: 100%;
+  }
+
+  .hherm-create-wrap .hherm-raffle-settings {
+    grid-template-columns: 1fr;
+  }
+
+  .hherm-create-wrap .hherm-expectation-row {
+    grid-template-columns: 26px minmax(0, 1fr) 30px;
+  }
+
+  .hherm-create-wrap .hherm-expectation-field:last-of-type {
+    grid-column: 2 / 3;
+  }
+
+  .hherm-create-wrap .hherm-expectation-remove {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .hherm-create-wrap .hherm-form-submit {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+
+[data-fundraising-fields][hidden],
+[data-event-categories][hidden] { display: none; }
+[data-fundraising-fields] fieldset { border: 0; padding: 20px 0 0; margin: 0; min-width: 0; }
+
+[data-confirmed-date-field][hidden],
+[data-raffle-cost-field][hidden],
+[data-external-registration-field][hidden],
+[data-internal-fee-fields][hidden],
+[data-external-fee-fields][hidden],
+[data-website-registration-fields][hidden],
+[data-what-to-expect-fields][hidden] { display: none; }
+
+[data-website-registration-fields],
+[data-what-to-expect-fields] { margin-top: 20px; }
+
+.hherm-create-wrap .hherm-featured-image-field {
+  margin-top: 20px;
+}
+
+.hherm-create-wrap .hherm-featured-image-field > span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--hh-body);
+  font-weight: 600;
+}
+
+.hherm-create-wrap .hherm-featured-image-preview img {
+  display: block;
+  width: auto;
+  max-width: 280px;
+  max-height: 190px;
+  border: 1px solid var(--hh-border);
+  border-radius: 8px;
+}
+
+.hherm-create-wrap .hherm-featured-image-field p {
+  margin: 10px 0 4px;
+}

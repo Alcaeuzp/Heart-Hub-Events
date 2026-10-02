@@ -1,0 +1,260 @@
+.hherm-calendar-schedule-wrap .hherm-calendar-filters {
+	display: grid;
+	grid-template-columns: 2fr 1fr auto;
+	gap: 14px;
+	max-width: 1280px;
+	margin: 0 auto 16px;
+	padding: 18px 20px;
+	border: 1px solid var(--hh-border);
+	border-radius: 12px;
+	background: #fff;
+}
+
+.hherm-calendar-filters label,
+.hherm-calendar-form-grid label {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	color: var(--hh-muted);
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.hherm-calendar-filters label > span {
+	font-size: 11px;
+	letter-spacing: .06em;
+	text-transform: uppercase;
+}
+
+.hherm-calendar-filters input,
+.hherm-calendar-filters select,
+.hherm-calendar-form-grid input,
+.hherm-calendar-form-grid select,
+.hherm-calendar-form-grid textarea {
+	width: 100%;
+	min-height: 40px;
+	padding: 8px 11px;
+	border: 1px solid var(--hh-border-input);
+	border-radius: 7px;
+	background: #fff;
+	color: var(--hh-ink);
+	font: 13px/1.4 'Public Sans', system-ui, sans-serif;
+}
+
+.hherm-calendar-form-grid textarea {
+	resize: vertical;
+}
+
+.hherm-calendar-form-grid input:focus,
+.hherm-calendar-form-grid select:focus,
+.hherm-calendar-form-grid textarea:focus,
+.hherm-calendar-filters input:focus,
+.hherm-calendar-filters select:focus {
+	border-color: var(--hh-blue);
+	outline: 0;
+	box-shadow: 0 0 0 3px var(--hh-blue-soft);
+}
+
+.hherm-calendar-form {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.hherm-calendar-form-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 16px;
+}
+
+.hherm-calendar-form-grid label > span {
+	color: var(--hh-body);
+}
+
+.hherm-calendar-one-off-fields,
+.hherm-calendar-recurrence-fields {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.hherm-calendar-recurrence-fields[hidden],
+.hherm-calendar-one-off-fields[hidden],
+.hherm-calendar-recurrence-fields [hidden] {
+	display: none !important;
+}
+
+.hherm-calendar-recurrence-fields > label,
+.hherm-calendar-custom-dates,
+.hherm-calendar-time-slots,
+.hherm-calendar-weekdays {
+	min-width: 0;
+}
+
+.hherm-calendar-weekdays,
+.hherm-calendar-custom-dates,
+.hherm-calendar-time-slots {
+	border: 1px solid var(--hh-border);
+	border-radius: 9px;
+	margin: 0;
+	padding: 14px;
+}
+
+.hherm-calendar-weekdays legend,
+.hherm-calendar-field-label {
+	color: var(--hh-body);
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.hherm-calendar-weekday-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 14px;
+}
+
+.hherm-calendar-weekday-list label {
+	align-items: center;
+	color: var(--hh-body);
+	display: inline-flex;
+	flex-direction: row;
+	font-weight: 500;
+}
+
+.hherm-calendar-weekday-list input {
+	min-height: auto;
+	width: auto;
+}
+
+.hherm-calendar-date-row,
+.hherm-calendar-time-row {
+	align-items: end;
+	display: flex;
+	gap: 10px;
+	margin: 10px 0;
+}
+
+.hherm-calendar-date-row input {
+	max-width: 240px;
+}
+
+.hherm-calendar-time-row label {
+	flex: 1;
+}
+
+.hherm-calendar-time-row label > span {
+	color: var(--hh-muted);
+	font-size: 11px;
+}
+
+.hherm-calendar-time-row .button-link-delete,
+.hherm-calendar-date-row .button-link-delete {
+	margin-bottom: 10px;
+}
+
+.hherm-calendar-schedule-wrap > .notice {
+	box-sizing: border-box;
+	max-width: 1280px;
+	margin: 0 auto 16px;
+}
+
+.hherm-calendar-settings-form {
+	max-width: 1280px;
+	margin: 20px auto;
+	padding: 20px 24px;
+	border: 1px solid var(--hh-border);
+	border-radius: 12px;
+	background: #fff;
+}
+
+.hherm-calendar-settings-form .form-table th {
+	width: 250px;
+}
+
+.hherm-calendar-settings-section {
+	margin: 0 0 24px;
+	padding: 0 0 18px;
+	border-bottom: 1px solid var(--hh-rule);
+}
+
+.hherm-calendar-settings-section:last-of-type {
+	margin-bottom: 16px;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+.hherm-calendar-settings-section > h2 {
+	margin: 0 0 5px;
+	color: var(--hh-ink);
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.hherm-calendar-settings-section > .description {
+	margin: 0 0 8px;
+}
+
+.hherm-calendar-settings-section .form-table {
+	margin-top: 4px;
+}
+
+.hherm-calendar-settings-form .hherm-calendar-color-control {
+	width: 58px;
+	height: 36px;
+	padding: 3px;
+	border: 1px solid var(--hh-border-input);
+	border-radius: 7px;
+	background: #fff;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.hherm-calendar-settings-form .hherm-calendar-color-control:focus {
+	outline: 0;
+	border-color: var(--hh-blue);
+	box-shadow: 0 0 0 3px var(--hh-blue-soft);
+}
+
+.hherm-calendar-settings-form .description {
+	color: var(--hh-muted);
+}
+
+.hherm-calendar-form-grid small {
+	color: var(--hh-muted);
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.hherm-calendar-field--wide {
+	grid-column: 1 / -1;
+}
+
+.hherm-calendar-form-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 9px;
+	max-width: 980px;
+	margin: 16px auto;
+}
+
+.hherm-calendar-note {
+	max-width: 980px;
+	margin: 16px auto;
+	color: var(--hh-muted);
+	font-size: 12px;
+}
+
+@media (max-width: 782px) {
+	.hherm-calendar-schedule-wrap .hherm-calendar-filters,
+	.hherm-calendar-form-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.hherm-calendar-field--wide {
+		grid-column: auto;
+	}
+
+	.hherm-calendar-one-off-fields,
+	.hherm-calendar-recurrence-fields {
+		grid-template-columns: 1fr;
+	}
+}

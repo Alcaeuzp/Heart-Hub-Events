@@ -1,0 +1,81 @@
+db-1         | 2026-09-27 01:46:47+00:00 [Note] [Entrypoint]: Entrypoint script for MariaDB Server 1:12.3.3+maria~ubu2404 started.
+db-1         | 2026-09-27 01:46:47+00:00 [Warn] [Entrypoint]: /sys/fs/cgroup///memory.pressure not writable, functionality unavailable to MariaDB
+wordpress-1  | Success: Generated 'wp-config.php' file.
+wordpress-1  | WordPress is already installed.
+wordpress-1  | Warning: Plugin 'heart-hub-event-registration-manager' is already active.
+wordpress-1  | Success: Plugin already activated.
+wordpress-1  | Success: Value passed for 'timezone_string' option is unchanged.
+db-1         | 2026-09-27 01:46:47+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+db-1         | 2026-09-27 01:46:47+00:00 [Note] [Entrypoint]: Entrypoint script for MariaDB Server 1:12.3.3+maria~ubu2404 started.
+db-1         | 2026-09-27 01:46:48+00:00 [Note] [Entrypoint]: Initializing database files
+db-1         | 2026-09-27  1:46:48 0 [Warning] mariadbd: io_uring_queue_init() failed with EPERM: sysctl kernel.io_uring_disabled has the value 2, or 1 and the user of the process is not a member of sysctl kernel.io_uring_group. (see man 2 io_uring_setup).
+db-1         | create_uring failed: falling back to libaio
+db-1         | 2026-09-27 01:46:49+00:00 [Note] [Entrypoint]: Database files initialized
+db-1         | 2026-09-27 01:46:49+00:00 [Note] [Entrypoint]: Starting temporary server
+db-1         | 2026-09-27 01:46:49+00:00 [Note] [Entrypoint]: Waiting for server startup
+db-1         | 2026-09-27  1:46:49 0 [Note] Starting MariaDB 12.3.3-MariaDB-ubu2404 source revision 83e909fc2a0dbc394b4b683fb3fa2d7dcf26cc5e server_uid z3I+JG/PyH9y8M5pTGEWb9FfH+E= as process 92
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Compressed tables use zlib 1.3
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Number of transaction pools: 1
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+db-1         | 2026-09-27  1:46:49 0 [Warning] mariadbd: io_uring_queue_init() failed with EPERM: sysctl kernel.io_uring_disabled has the value 2, or 1 and the user of the process is not a member of sysctl kernel.io_uring_group. (see man 2 io_uring_setup).
+db-1         | create_uring failed: falling back to libaio
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Using Linux native AIO
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: innodb_buffer_pool_size_max=8388608m, innodb_buffer_pool_size=128m
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Completed initialization of buffer pool
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: End of log at LSN=45093
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Opened 3 undo tablespaces
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+db-1         | 2026-09-27  1:46:49 0 [Note] InnoDB: log sequence number 45093; transaction id 14
+db-1         | 2026-09-27  1:46:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+db-1         | 2026-09-27  1:46:49 0 [Note] Plugin 'wsrep-provider' is disabled.
+db-1         | 2026-09-27  1:46:49 0 [Note] mariadbd: Event Scheduler: Loaded 0 events
+db-1         | 2026-09-27  1:46:49 0 [Note] Replication not automatically started: --skip-slave-start was specified
+db-1         | 2026-09-27  1:46:49 0 [Note] mariadbd: ready for connections.
+db-1         | Version: '12.3.3-MariaDB-ubu2404'  socket: '/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Temporary server started.
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Creating database hherm_test
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Creating user hherm_test
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Giving user hherm_test access to schema hherm_test
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Securing system users (equivalent to running mysql_secure_installation)
+db-1         | 
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Stopping temporary server
+db-1         | 2026-09-27  1:46:50 0 [Note] mariadbd (initiated by: unknown): Normal shutdown
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: FTS optimize thread exiting.
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Starting shutdown...
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 260927  1:46:50
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+db-1         | 2026-09-27  1:46:50 0 [Note] Shutdown completed; log sequence number 45450; transaction id 15
+db-1         | 2026-09-27  1:46:50 0 [Note] mariadbd: Shutdown complete
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: Temporary server stopped
+db-1         | 
+db-1         | 2026-09-27 01:46:50+00:00 [Note] [Entrypoint]: MariaDB init process done. Ready for start up.
+db-1         | 
+db-1         | 2026-09-27  1:46:50 0 [Note] Starting MariaDB 12.3.3-MariaDB-ubu2404 source revision 83e909fc2a0dbc394b4b683fb3fa2d7dcf26cc5e server_uid z3I+JG/PyH9y8M5pTGEWb9FfH+E= as process 1
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Compressed tables use zlib 1.3
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Number of transaction pools: 1
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+db-1         | 2026-09-27  1:46:50 0 [Warning] mariadbd: io_uring_queue_init() failed with EPERM: sysctl kernel.io_uring_disabled has the value 2, or 1 and the user of the process is not a member of sysctl kernel.io_uring_group. (see man 2 io_uring_setup).
+db-1         | create_uring failed: falling back to libaio
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Using Linux native AIO
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: innodb_buffer_pool_size_max=8388608m, innodb_buffer_pool_size=128m
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Completed initialization of buffer pool
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Buffered log writes (block size=512 bytes)
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: End of log at LSN=45450
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Opened 3 undo tablespaces
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: 128 rollback segments in 3 undo tablespaces are active.
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: log sequence number 45450; transaction id 15
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+db-1         | 2026-09-27  1:46:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+db-1         | 2026-09-27  1:46:50 0 [Note] Plugin 'wsrep-provider' is disabled.
+db-1         | 2026-09-27  1:46:50 0 [Note] InnoDB: Buffer pool(s) load completed at 260927  1:46:50
+db-1         | 2026-09-27  1:46:51 0 [Note] Server socket created on IP: '0.0.0.0', port: '3306'.
+db-1         | 2026-09-27  1:46:51 0 [Note] Server socket created on IP: '::', port: '3306'.
+db-1         | 2026-09-27  1:46:51 0 [Note] mariadbd: Event Scheduler: Loaded 0 events
+db-1         | 2026-09-27  1:46:51 0 [Note] mariadbd: ready for connections.
+db-1         | Version: '12.3.3-MariaDB-ubu2404'  socket: '/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution

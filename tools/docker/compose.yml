@@ -1,0 +1,34 @@
+services:
+  db:
+    image: mariadb:lts
+    environment:
+      MARIADB_DATABASE: hherm_test
+      MARIADB_USER: hherm_test
+      MARIADB_PASSWORD: hherm_disposable_test_password
+      MARIADB_ROOT_PASSWORD: hherm_disposable_root_password
+    tmpfs:
+      - /var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+  wordpress:
+    build:
+      context: .
+      dockerfile: Dockerfile.wordpress
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      WP_CLI_ALLOW_ROOT: "1"
+      HHERM_INTEGRATION_TEST: "1"
+    volumes:
+      - ../..:/plugin:ro
+      - ../../validation/docker-latest:/results
+    tmpfs:
+      - /var/www/html
+    command: ["sleep", "infinity"]
+networks:
+  default:
+    internal: true
